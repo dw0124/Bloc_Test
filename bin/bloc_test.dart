@@ -59,4 +59,5 @@ Future<void> main() async {
   // 구독 종료 및 cubit 정리
   await subscription.cancel();
   await cubit.close();
+
 }
